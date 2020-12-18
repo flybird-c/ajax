@@ -1,0 +1,19 @@
+1.首页设计一个超链接 (index.jsp)
+<a href="userListServlet">查询全部用户信息</a>
+
+2.查看用户列表的页面 (main.jsp) (userListServlet===>转发到main.jsp)
+<table>
+	......
+
+	<td><a href="deleteUserServlet?id=${user.id}">删除</a></td>
+	deleteUserServlet 上面 ==>
+	获得id 根据id删除用户===>重定向到 userListServlet====>转发main.jsp
+		
+	<td>
+		<a href="showUserServlet?id=${user.id}">查看商品详情</a>
+		showUserServlet上面===>
+		根据id查询用户对象 ===>存入req请求对象===>转发到introduce.jsp				
+	</td>  
+</table>
+
+使用jdbc访问数据库

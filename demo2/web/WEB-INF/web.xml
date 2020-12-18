@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <servlet-mapping>
+        <servlet-name>names02</servlet-name>
+        <!--        通过/s02后缀找到代码块执行，-->
+        <!--        再执行name指令的值names02，跳转到servlet的names02执行代码块，-->
+        <!--        再通过class全限定名反射找到相应的实例-->
+        <url-pattern>/s02</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>names02</servlet-name>
+        <servlet-class>loginServlet</servlet-class>
+    </servlet>
+
+</web-app>
