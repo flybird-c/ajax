@@ -37,10 +37,9 @@
             <div class="col-md-12 text-center">
                 <ul class="pagination">
                     <li><a href="#">&laquo;</a></li>
-                    <li><a href="#">1</a></li>
-                    <li><a href="#">2</a></li>
-                    <li><a href="#">3</a></li>
-                    <li><a href="#">4</a></li>
+                    <c:forEach var="num" items="${arrayList}">
+                        <li><a href="queryFilmServlet?value=${num}">${num}</a></li>
+                    </c:forEach>
                     <li><a href="#">&raquo;</a></li>
                 </ul>
             </div>
