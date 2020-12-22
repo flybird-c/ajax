@@ -35,6 +35,6 @@
       </library>
     </orderEntry>
     <orderEntry type="library" exported="" name="web-lib" level="project" />
-    <orderEntry type="library" exported="" name="Tomcat 9" level="application_server_libraries" />
+    <orderEntry type="library" exported="" name="Tomcat 9.0.41" level="application_server_libraries" />
   </component>
 </module>
