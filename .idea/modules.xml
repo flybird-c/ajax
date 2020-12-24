@@ -3,8 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$USER_HOME$/IdeaProjects/AjaxWoniuShopping01/AjaxWoniuShopping01.iml" filepath="$USER_HOME$/IdeaProjects/AjaxWoniuShopping01/AjaxWoniuShopping01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AjaxWoniuShopping02-Mybatis/AjaxWoniuShopping02-Mybatis.iml" filepath="$PROJECT_DIR$/AjaxWoniuShopping02-Mybatis/AjaxWoniuShopping02-Mybatis.iml" />
       <module fileurl="file://$USER_HOME$/IdeaProjects/Ajaxdemo01/Ajaxdemo01.iml" filepath="$USER_HOME$/IdeaProjects/Ajaxdemo01/Ajaxdemo01.iml" />
       <module fileurl="file://$PROJECT_DIR$/Filter/Filter.iml" filepath="$PROJECT_DIR$/Filter/Filter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MybatisDemo01/MybatisDemo01.iml" filepath="$PROJECT_DIR$/MybatisDemo01/MybatisDemo01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MybatisDemo02/MybatisDemo02.iml" filepath="$PROJECT_DIR$/MybatisDemo02/MybatisDemo02.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo1/demo1.iml" filepath="$PROJECT_DIR$/demo1/demo1.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo2/demo2.iml" filepath="$PROJECT_DIR$/demo2/demo2.iml" />
       <module fileurl="file://$USER_HOME$/IdeaProjects/reflex/reflex.iml" filepath="$USER_HOME$/IdeaProjects/reflex/reflex.iml" />

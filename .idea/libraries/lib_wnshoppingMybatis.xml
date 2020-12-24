@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="lib-wnshoppingMybatis">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/AjaxWoniuShopping02-Mybatis/web/WEB-INF/lib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/AjaxWoniuShopping02-Mybatis/web/WEB-INF/lib" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/AjaxWoniuShopping02-Mybatis/web/WEB-INF/lib" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/AjaxWoniuShopping02-Mybatis/web/WEB-INF/lib" recursive="false" type="SOURCES" />
+  </library>
+</component>

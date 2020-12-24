@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="AjaxWoniuShopping02-Mybatis:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/AjaxWoniuShopping02_Mybatis_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="AjaxWoniuShopping02-Mybatis/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="AjaxWoniuShopping02-Mybatis" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
