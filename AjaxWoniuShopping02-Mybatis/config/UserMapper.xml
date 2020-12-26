@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.itwn.mapper.UserMapper">
+    <select id="queryUserByName" parameterType="String" resultType="com.itwn.entity.User">
+    select * from user where user_name=#{userName}
+    </select>
+    <select id="queryAllUser" resultType="com.itwn.entity.User">
+    select * from user
+    <where>
+        <if test="id!=null and id>0">
+            and id=#{id}
+        </if>
+        <if test="userName!=null and userName!=''">
+            and user_name=#{userName}
+        </if>
+        <if test="userPhone!=null and userPhone!=''">
+            and user_phone=#}{userPhone}
+        </if>
+    </where>
+    </select>
+    <select id="queryTableCount" parameterType="String">
+        select * from #{tableName}
+    </select>
+<!--    <delete id="deleteUser" parameterType="com.itwn.entity.User">-->
+<!--       delete from person-->
+<!--        <if test="id!=null and id>0">-->
+<!--            where id=#{id}-->
+<!--        </if>-->
+<!--       <where>-->
+
+<!--       </where>-->
+
+
+<!--    </delete>-->
+</mapper>
